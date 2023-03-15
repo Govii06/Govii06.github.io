@@ -122,18 +122,6 @@ header.shadow {
   font-weight: 400;
   margin: 0.7rem 0 1rem;
 }
-.social {
-  display: flex;
-  flex-direction: column;
-}
-.social a {
-  margin-bottom: 1rem;
-  font-size: 22px;
-  color: var(--text-color);
-}
-.social a:hover {
-  color: var(--hover);
-}
 .btn {
   display: inline-block;
   background: var(--main-color);
@@ -261,19 +249,7 @@ form textarea {
   resize: none;
   height: 200px;
 }
-.contact-button {
-  width: 160px;
-  cursor: pointer;
-  background: #2768d9;
-  color: #fff;
-  justify-content: center;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-left: 35%;
-}
-.contact-button:hover {
-  background: var(--hover);
-}
+
 .footer {
   display: grid;
   place-items: center;
@@ -388,10 +364,10 @@ form textarea {
     display: flex;
     justify-content: center;
   }
-  .contact-form form{
+  .projects-form form{
     width: 300px;
   }
-  .contact-button{
+  .projects-button{
     margin-left: 25%;
   }
 }
@@ -413,10 +389,12 @@ form textarea {
   .portfolio-content {
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   }
-  .contact-form form{
-    width: 300px;
-  }
-  .contact-button{
-    margin-left: 25%;
-  }
+}
+
+.tictacto{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-top: 2rem; */
+  font-size: 1.6em;
 }

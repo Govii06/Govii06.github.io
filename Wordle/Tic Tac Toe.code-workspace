@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Tic Tac Toe"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Wordle"
+	}
+}
